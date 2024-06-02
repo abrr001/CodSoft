@@ -1,1 +1,200 @@
+// HTML
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./abrr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Open+Sans:ital,wght@1,300&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4b58f581c8.js" crossorigin="anonymous"></script>
+    <title>Food Order </title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">COD SOFT Project </a>
+        <ul class="navlist">
+            <li><a href="">HOME</a></li>
+            <li><a href="">Orders</a></li>
+            <li><a href="">Recipes</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">About Us</a></li>
+
+            <div class="bx bx-menu" id="menu-icon">=</div>
+
+
+        </ul>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h5>ABR Restaurant </h5>
+            <h4>Order the Food Now </h4>
+            <br>
+            <h1>Click Here</h1>
+            <br>
+            <p>
+                This website is used for the users to order the food from our websites, to check different recipes and to contact us 
+                whether you faced any problem.
+                <br>
+                <br>
+                <a href="#" class="ex">Explore Our Menu </a>
+
+                <a href="" class="wat"><i class="fa-solid fa-play">Click Here To Order  </i></a>
+
+        </div class="DIV">
+        <div><img class="img" src="abrr.png"
+            alt=""></div>"
+               
+        </p>
+
+       
+</body>
+
+</html>
+***********************************************
+// CSS
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monospace', 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 4px solid rgb(12, 105, 105);
+    border-radius: 8px;
+}
+
+.navlist {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.navlist a {
+    color: white;
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding-right: 50px;
+    text-decoration: overline;
+
+}
+
+.navlist a:hover {
+    text-decoration: underline 3px solid;
+    font-size: larger;
+    color: red;
+
+
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(84, 210, 213, 1) 0%, rgba(172, 70, 63, 1) 36%, rgba(15, 142, 132, 0.927608543417367) 100%);
+    position: relative;
+    display: grid;
+    
+}
+
+.hero-text {
+    margin-top: 230px;
+    text-align: justify;
+    margin-right: 500px;
+    margin-left: 200px;
+
+}
+
+.wat {
+    margin-left: 50px;
+    border: 4px solid white;
+    border-radius: 20px;
+    color: gold;
+}
+
+.ex {
+    border: 4px solid white;
+    color: crimson;
+    border-radius: 20px;
+    background-color:darkcyan;
+}
+
+.ex:hover{
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: black;
+}
+    .wat:hover{
+        font-size: 20px;
+        background-color: antiquewhite;
+        color: black;
+    }
+    
+
+.img {
+    width: 400px;
+    height: 400px;
+    margin-left: 880px;
+    margin-top: -500px;
+    border-radius: 80px;
+    border: 5px solid white;
+   
+}
+
+
+
+img:hover {
+    rotate: -10deg;
+    border: 10px solid rgb(236, 24, 24);
+}
+
+h1 {
+    color: wheat;
+    border: 5px solid;
+    padding-left: 100px;
+    border-left: 200px solid;
+    
+
+}
+.inst{
+ margin-left: 20px;
+ font-style: italic;
+margin-top: -300px;
+}
